@@ -98,6 +98,9 @@ class ZgrPieChartView: UIView {
         self.collectionView.delegate = self
         self.collectionView.dataSource = self
     }
+    private func setAnimation(){
+        
+    }
 }
 extension ZgrPieChartView : UICollectionViewDelegate , UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
