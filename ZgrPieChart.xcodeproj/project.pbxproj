@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0419F706251BE87E00AF4587 /* ZGRItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0419F705251BE87E00AF4587 /* ZGRItemCell.swift */; };
 		04D6047C251776DD001AC5FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6047B251776DD001AC5FF /* AppDelegate.swift */; };
 		04D6047E251776DD001AC5FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6047D251776DD001AC5FF /* SceneDelegate.swift */; };
 		04D60480251776DD001AC5FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6047F251776DD001AC5FF /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0419F705251BE87E00AF4587 /* ZGRItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGRItemCell.swift; sourceTree = "<group>"; };
 		04D60478251776DD001AC5FF /* ZgrPieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZgrPieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D6047B251776DD001AC5FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D6047D251776DD001AC5FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				04D60486251776DF001AC5FF /* LaunchScreen.storyboard */,
 				04D60489251776DF001AC5FF /* Info.plist */,
 				04D604AE2517773B001AC5FF /* ZgrPieChartView.swift */,
+				0419F705251BE87E00AF4587 /* ZGRItemCell.swift */,
 			);
 			path = ZgrPieChart;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04D60480251776DD001AC5FF /* ViewController.swift in Sources */,
+				0419F706251BE87E00AF4587 /* ZGRItemCell.swift in Sources */,
 				04D6047C251776DD001AC5FF /* AppDelegate.swift in Sources */,
 				04D604AF2517773B001AC5FF /* ZgrPieChartView.swift in Sources */,
 				04D6047E251776DD001AC5FF /* SceneDelegate.swift in Sources */,

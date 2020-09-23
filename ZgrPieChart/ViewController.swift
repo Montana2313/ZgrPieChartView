@@ -27,9 +27,7 @@ class ViewController: UIViewController {
             ZgrPieChartItem(itemName: "Özgür", itemValue: 60 ,color: .red),
             ZgrPieChartItem(itemName: "Enes", itemValue: 40, color: .yellow),
             ZgrPieChartItem(itemName: "Other", itemValue: 20, color: .brown),
-            ZgrPieChartItem(itemName: "Other_2", itemValue: 25, color: .blue),
-            ZgrPieChartItem(itemName: "Other_3", itemValue: 35,  color: .cyan),
-            ZgrPieChartItem(itemName: "Other_4", itemValue: 20, color: .green)
+            ZgrPieChartItem(itemName: "Other_2", itemValue: 25, color: .blue)
         ]
 
         self.pieChart.drawChart()
