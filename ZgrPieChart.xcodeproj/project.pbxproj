@@ -17,6 +17,7 @@
 		04D60493251776DF001AC5FF /* ZgrPieChartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D60492251776DF001AC5FF /* ZgrPieChartTests.swift */; };
 		04D6049E251776DF001AC5FF /* ZgrPieChartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6049D251776DF001AC5FF /* ZgrPieChartUITests.swift */; };
 		04D604AF2517773B001AC5FF /* ZgrPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D604AE2517773B001AC5FF /* ZgrPieChartView.swift */; };
+		04EC5C3E251D24DB00B8732C /* ZgrPieChartItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EC5C3D251D24DB00B8732C /* ZgrPieChartItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		04D6049D251776DF001AC5FF /* ZgrPieChartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZgrPieChartUITests.swift; sourceTree = "<group>"; };
 		04D6049F251776DF001AC5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04D604AE2517773B001AC5FF /* ZgrPieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZgrPieChartView.swift; sourceTree = "<group>"; };
+		04EC5C3D251D24DB00B8732C /* ZgrPieChartItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZgrPieChartItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +112,7 @@
 				04D60484251776DF001AC5FF /* Assets.xcassets */,
 				04D60486251776DF001AC5FF /* LaunchScreen.storyboard */,
 				04D60489251776DF001AC5FF /* Info.plist */,
-				04D604AE2517773B001AC5FF /* ZgrPieChartView.swift */,
-				0419F705251BE87E00AF4587 /* ZGRItemCell.swift */,
+				04EC5C42251D24E900B8732C /* ZgrPieChartView */,
 			);
 			path = ZgrPieChart;
 			sourceTree = "<group>";
@@ -132,6 +133,16 @@
 				04D6049F251776DF001AC5FF /* Info.plist */,
 			);
 			path = ZgrPieChartUITests;
+			sourceTree = "<group>";
+		};
+		04EC5C42251D24E900B8732C /* ZgrPieChartView */ = {
+			isa = PBXGroup;
+			children = (
+				04D604AE2517773B001AC5FF /* ZgrPieChartView.swift */,
+				0419F705251BE87E00AF4587 /* ZGRItemCell.swift */,
+				04EC5C3D251D24DB00B8732C /* ZgrPieChartItem.swift */,
+			);
+			path = ZgrPieChartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +277,7 @@
 			files = (
 				04D60480251776DD001AC5FF /* ViewController.swift in Sources */,
 				0419F706251BE87E00AF4587 /* ZGRItemCell.swift in Sources */,
+				04EC5C3E251D24DB00B8732C /* ZgrPieChartItem.swift in Sources */,
 				04D6047C251776DD001AC5FF /* AppDelegate.swift in Sources */,
 				04D604AF2517773B001AC5FF /* ZgrPieChartView.swift in Sources */,
 				04D6047E251776DD001AC5FF /* SceneDelegate.swift in Sources */,

@@ -8,11 +8,7 @@
 import Foundation
 import UIKit
 
-struct ZgrPieChartItem{
-    var itemName : String
-    var itemValue : CGFloat
-    var color : UIColor? = .red
-}
+
 
 class ZgrPieChartView: UIView {
     override init(frame: CGRect) {super.init(frame: frame)}
@@ -78,6 +74,9 @@ class ZgrPieChartView: UIView {
     }
     func drawChart(){
         self.draw(.zero)
+        if self.isRotateAnimate == true {
+            self.setAnimation()
+        }
     }
     
     private func setCollectionView(){
@@ -99,7 +98,23 @@ class ZgrPieChartView: UIView {
         self.collectionView.dataSource = self
     }
     private func setAnimation(){
-        
+        self.rotation()
+        self.scaleDown()
+    }
+    private func rotation(){
+        let animation = CABasicAnimation(keyPath: "transform.rotation.z")
+        animation.duration = 1.0
+        animation.toValue = CGFloat.pi * 2.0
+        animation.repeatCount = 1
+        self.layer.add(animation, forKey: "rotationAnimation")
+    }
+    private func scaleDown(){
+        let transformScale = CABasicAnimation(keyPath: "transform.scale")
+        transformScale.fromValue = 0.5
+        transformScale.toValue = 1.0
+         transformScale.fillMode = CAMediaTimingFillMode.forwards
+        transformScale.duration = 1.0
+        self.layer.add(transformScale , forKey: "scaleAnimation")
     }
 }
 extension ZgrPieChartView : UICollectionViewDelegate , UICollectionViewDataSource {

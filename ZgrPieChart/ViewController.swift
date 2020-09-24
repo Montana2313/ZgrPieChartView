@@ -22,7 +22,7 @@ class ViewController: UIViewController {
         self.pieChart.widthAnchor.constraint(equalTo: self.view.widthAnchor).isActive = true
         self.pieChart.heightAnchor.constraint(equalTo: self.view.widthAnchor).isActive = true
         
-        self.pieChart.isRotateAnimate = false
+        self.pieChart.isRotateAnimate = true
         self.pieChart.pieChartItems = [
             ZgrPieChartItem(itemName: "Özgür", itemValue: 60 ,color: .red),
             ZgrPieChartItem(itemName: "Enes", itemValue: 40, color: .yellow),
